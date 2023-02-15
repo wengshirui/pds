@@ -1,0 +1,28 @@
+{
+  "PersonalInformation": {
+    "name": "个人信息",
+    "version": "0.1",
+    "contributor": "yumen2278",
+    "data": {
+      "realName": "姓名",
+      "age": "年龄",
+      "gender": "性别",
+      "address": "地址"
+    }
+  },
+  "Resume": {
+    "name": "简历信息",
+    "version": "0.1",
+    "contributor": "yumen2278",
+    "data": {
+      "realName": "姓名",
+      "age": "年龄",
+      "gender": "性别",
+      "address": "地址",
+      "phone": "联系电话",
+      "position": "岗位",
+      "trade": "行业",
+      "education": "学历"
+    }
+  }
+}
