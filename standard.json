@@ -7,22 +7,84 @@
       "realName": "姓名",
       "age": "年龄",
       "gender": "性别",
-      "address": "地址"
+      "phone": "手机号",
+      "email": "邮箱",
+      "address": "地址",
+      "createTime": "创建时间",
+      "updateTime": "更新时间"
     }
   },
   "Resume": {
     "name": "简历信息",
     "version": "0.1",
     "contributor": "yumen2278",
+    "data": [
+      {
+        "BaseInformation": {
+          "realName": "姓名",
+          "age": "年龄",
+          "gender": "性别",
+          "address": "地址",
+          "phone": "联系电话",
+          "job": "岗位",
+          "trade": "行业",
+          "education": "学历",
+          "skill": {
+            "name": "技能名称",
+            "Proficiency": "熟练程度"
+          },
+          "reserve": "备注",
+          "createTime": "创建时间",
+          "updateTime": "更新时间"
+        },
+        "WorkExperience ": {
+          "name": "工作经验",
+          "version": "0.1",
+          "contributor": "yumen2278",
+          "data": [
+            {
+              "startDate": "开始时间",
+              "endDate": "结束时间",
+              "company": "公司",
+              "job": "岗位",
+              "description": "工作内容",
+              "achievement": "工作成就",
+              "reserve": "备注",
+              "createTime": "创建时间",
+              "updateTime": "更新时间"
+            }
+          ]
+        },
+        "Education ": {
+          "name": "教育经历",
+          "version": "0.1",
+          "contributor": "yumen2278",
+          "data": [
+            {
+              "startDate": "开始时间",
+              "endDate": "结束时间",
+              "school": "学校",
+              "record": "学历",
+              "major": "专业",
+              "achievement": "成就",
+              "reserve": "备注",
+              "createTime": "创建时间",
+              "updateTime": "更新时间"
+            }
+          ]
+        },
+        "createTime": "创建时间",
+        "updateTime": "更新时间"
+      }
+    ]
+  },
+  "CompanyInformation": {
+    "name": "公司信息",
+    "version": "0.1",
+    "contributor": "yumen2278",
     "data": {
-      "realName": "姓名",
-      "age": "年龄",
-      "gender": "性别",
-      "address": "地址",
-      "phone": "联系电话",
-      "position": "岗位",
-      "trade": "行业",
-      "education": "学历"
+      "createTime": "创建时间",
+      "updateTime": "更新时间"
     }
   }
 }
