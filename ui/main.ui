@@ -6,87 +6,164 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1091</width>
+    <height>731</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>私有数据存储</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+color:blue;
+}</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTableWidget" name="databases">
+   <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>90</y>
-      <width>361</width>
-      <height>211</height>
+      <x>30</x>
+      <y>30</y>
+      <width>981</width>
+      <height>631</height>
      </rect>
     </property>
-    <column>
-     <property name="text">
-      <string>数据库名称</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>英文名称</string>
-     </property>
-    </column>
-   </widget>
-   <widget class="QPushButton" name="getList">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>400</y>
-      <width>112</width>
-      <height>34</height>
-     </rect>
+    <property name="currentIndex">
+     <number>1</number>
     </property>
-    <property name="text">
-     <string>查询</string>
-    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>首页</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>120</y>
+        <width>351</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>首页放点东西说明一下</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>数据库</string>
+     </attribute>
+     <widget class="QTableWidget" name="databases">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>861</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>数据库名称</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>英文名称</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="getList">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>530</y>
+        <width>112</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>530</y>
+        <width>112</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+color:blue;
+}</string>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>应用列表</string>
+     </attribute>
+     <widget class="QTableWidget" name="databases_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>931</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>应用名称</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>英文名称</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>域名</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>公钥</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>私钥</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>更新时间</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>设置</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>关于我们</string>
+     </attribute>
+    </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>30</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menu">
-    <property name="title">
-     <string>首页</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_2">
-    <property name="title">
-     <string>数据库</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_3">
-    <property name="title">
-     <string>应用</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_4">
-    <property name="title">
-     <string>关于我们</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_5">
-    <property name="title">
-     <string>设置</string>
-    </property>
-   </widget>
-   <addaction name="menu"/>
-   <addaction name="menu_2"/>
-   <addaction name="menu_3"/>
-   <addaction name="menu_4"/>
-   <addaction name="menu_5"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
