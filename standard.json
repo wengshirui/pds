@@ -132,11 +132,195 @@
     "version": "0.1",
     "contributor": "yumen2278",
     "data": {
-      "companyName": "公司名称",
-      "taxNo": "税号",
-      "address": "公司地址",
-      "createTime": "创建时间",
-      "updateTime": "更新时间"
+      "businessInformation": {
+        "name": "工商信息",
+        "receiveCapital": "1584.9514",
+        "city": "广州市",
+        "companyName": "广州猫屎咖啡连锁有限公司",
+        "registerCapitalUnit": "CNY",
+        "nacaoCode": "574044969",
+        "phoneNo": "020-37792999-835",
+        "companyInvestorList": [
+          {
+            "currencyType": "",
+            "subscribeAmount": "",
+            "investor": "天津跃信商业管理有限公司",
+            "paidDate": "",
+            "subscribeDate": "",
+            "paidProportion": "0.0",
+            "certificateNo": "91120118MA06R4YQXQ",
+            "paidAmount": "",
+            "certificateType": "企业法人营业执照(公司)",
+            "investorType": "法人股东"
+          },
+          {
+            "currencyType": "",
+            "subscribeAmount": "",
+            "investor": "天津尚格商业管理有限公司",
+            "paidDate": "",
+            "subscribeDate": "",
+            "paidProportion": "0.0",
+            "certificateNo": "91120118MA06R4T567",
+            "paidAmount": "",
+            "certificateType": "企业法人营业执照(公司)",
+            "investorType": "法人股东"
+          },
+          {
+            "currencyType": "",
+            "subscribeAmount": "",
+            "investor": "天津德佑商业管理有限公司",
+            "paidDate": "",
+            "subscribeDate": "",
+            "paidProportion": "0.0",
+            "certificateNo": "91120118MA06R75C96",
+            "paidAmount": "",
+            "certificateType": "企业法人营业执照(公司)",
+            "investorType": "法人股东"
+          },
+          {
+            "currencyType": "",
+            "subscribeAmount": "",
+            "investor": "天津博达商业管理有限公司",
+            "paidDate": "",
+            "subscribeDate": "",
+            "paidProportion": "0.0",
+            "certificateNo": "91120118MA06R53D9D",
+            "paidAmount": "",
+            "certificateType": "企业法人营业执照(公司)",
+            "investorType": "法人股东"
+          },
+          {
+            "currencyType": "",
+            "subscribeAmount": "",
+            "investor": "天津昱捷商业管理有限公司",
+            "paidDate": "",
+            "subscribeDate": "",
+            "paidProportion": "0.0",
+            "certificateNo": "91120118MA06R53Y03",
+            "paidAmount": "",
+            "certificateType": "企业法人营业执照(公司)",
+            "investorType": "法人股东"
+          },
+          {
+            "currencyType": "",
+            "subscribeAmount": "",
+            "investor": "天津纳诚商业管理有限公司",
+            "paidDate": "",
+            "subscribeDate": "",
+            "paidProportion": "0.0",
+            "certificateNo": "91120118MA06R51C8X",
+            "paidAmount": "",
+            "certificateType": "企业法人营业执照(公司)",
+            "investorType": "法人股东"
+          },
+          {
+            "currencyType": "",
+            "subscribeAmount": "",
+            "investor": "Kafelaku Coffee International Holding Limited",
+            "paidDate": "",
+            "subscribeDate": "",
+            "paidProportion": "0.0",
+            "certificateNo": "3067789",
+            "paidAmount": "",
+            "certificateType": "营业执照",
+            "investorType": "法人股东"
+          }
+        ],
+        "industryCode": "其他未列明餐饮业",
+        "registerNo": "440106000432699",
+        "legalName": "王兵",
+        "webSite": "kafelaku.com.cn",
+        "creditCode": "91440101574044969K",
+        "province": "广东省",
+        "companyManagerList": [
+          {
+            "name": "姓名",
+            "position": "职务"
+          },
+          {
+            "name": "黎亚稳",
+            "position": "监事"
+          }
+        ],
+        "registerOrg": "广州市天河区市场监督管理局",
+        "address": "广州市天河区天河路603号自编101房",
+        "companyStockImpawnList": [
+          {
+            "changeSituation": "",
+            "companyId": "7e71cbd3-f204-45c7-bbda-ab2515a94ad8",
+            "cancelDate": "撤销日期",
+            "pledgeAmount": "质押金额",
+            "pledgeeName": "质权人",
+            "recordDate": " 股权出质设立登记日期",
+            "pledgorName": "出质人",
+            "performState": "状态",
+            "cancelReason": "撤销原因"
+          },
+          {
+            "changeSituation": "",
+            "companyId": "7e71cbd3-f204-45c7-bbda-ab2515a94ad8",
+            "cancelDate": "",
+            "pledgeAmount": "72.76",
+            "pledgeeName": "广州市融资担保中心有限责任公司",
+            "recordDate": "2015-08-27",
+            "pledgorName": "梁乃铭",
+            "performState": "无效",
+            "cancelReason": ""
+          }
+        ],
+        "companyType": "有限责任公司(中外合资)",
+        "companyFiliationList": [
+          {
+            "branchCompanyId": "cab64787-d000-402e-964f-e288a4cad934",
+            "branchAddress": "",
+            "branchOrganLegalPerson": "陈晓静",
+            "branchRegisterOrg": "广州市番禺区市场监督管理局",
+            "branchOrgRegisterNo": "440106000432699",
+            "branchOrgName": "广州猫屎咖啡连锁有限公司海印又一城分店"
+          },
+          {
+            "branchCompanyId": "97fe89c5-e775-49e1-ba39-19a5d4de378c",
+            "branchAddress": "",
+            "branchOrganLegalPerson": "王兵",
+            "branchRegisterOrg": "广州市天河区工商行政管理局",
+            "branchOrgRegisterNo": "440106000432699",
+            "branchOrgName": "广州猫屎咖啡连锁有限公司天河购书中心店"
+          }
+        ],
+        "toDate": "2061-05-20",
+        "companyStatus": "存续",
+        "domicileDistrict": "440106",
+        "establishDate": "2011-05-20",
+        "logoUrl": "https://qxb-logo-url.oss-cn-hangzhou.aliyuncs.com/OriginalUrl/3d766f720fd8bd556325ac78f19af2ef.jpg",
+        "telNo": "",
+        "companyModifyList": [
+          {
+            "changeTime": "2021-09-29",
+            "contentAfter": "准予章程备案",
+            "contentBefore": "",
+            "changeItem": "章程备案"
+          },
+          {
+            "changeTime": "2016-04-22",
+            "contentAfter": "换照",
+            "contentBefore": "换照(变更前)",
+            "changeItem": "换照"
+          }
+        ],
+        "approvedDate": "2021-09-29",
+        "fromDate": "2011-05-20",
+        "companyId": "7e71cbd3-f204-45c7-bbda-ab2515a94ad8",
+        "registerCapital": "1584.9514",
+        "mainIndustryCode": "住宿和餐饮业",
+        "operateScope": "商业特许经营;包装装潢设计服务;室内装饰设计服务;餐饮管理;日用器皿及日用杂货批发;厨房用具及日用杂品零售;日用杂品综合零售;小饰物、小礼品零售;礼品鲜花零售;技术进出口;干果、坚果批发;干果、坚果零售;充值卡销售;陶瓷、玻璃器皿批发;陶瓷、玻璃器皿零售;工艺品批发;软件产品开发、生产;广告业;互联网商品销售（许可审批类商品除外）;其他文化娱乐用品批发;文化艺术咨询服务;文化娱乐经纪人（演出经纪机构除外）;工艺美术品零售（文物除外）;西餐服务（仅限分支机构经营）;预包装食品批发;散装食品零售;乳制品零售;非酒精饮料及茶叶零售;中餐服务（仅限分支机构经营）;冷热饮品制售;咖啡馆服务;预包装食品零售",
+        "district": "天河区",
+        "companyHistoryNameList": [
+          {
+            "changeTime": "2012-04-28",
+            "companyUsedName": "广州猫屎咖啡有限公司"
+          }
+        ]
+      }
     }
   },
   "PlayInformation": {
@@ -162,6 +346,10 @@
     "version": "0.1",
     "contributor": "yumen2278",
     "data": {
+      "account": "账号信息",
+      "history": "聊天记录",
+      "group": "群组信息",
+      "contacts": "联系人",
       "createTime": "创建时间",
       "updateTime": "更新时间"
     }
