@@ -29,7 +29,7 @@ color:blue;
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -293,6 +293,36 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;只有应用对数据不在依赖或者说应用开发跟数据开发可以分开，人们随时随地可以因为应用服务不好而替换掉应用，这样个人持有数据才有价值。  &lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;当然也不会因为应用服务的停服或者异常，导致个人数据的丢失。保证个人数据的完整性和持续性，也为未来不同个性的人工智能服务提供基础。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>操作日志</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>941</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>操作人</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>内容</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>操作时间</string>
+       </property>
+      </column>
      </widget>
     </widget>
    </widget>

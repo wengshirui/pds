@@ -362,5 +362,25 @@
       "createTime": "创建时间",
       "updateTime": "更新时间"
     }
+  },
+  "JobInformation": {
+    "name": "岗位信息",
+    "version": "0.1",
+    "note": "公司或者人事公司管理要招人的岗位信息",
+    "contributor": "yumen2278",
+    "data": {
+      "createTime": "创建时间",
+      "updateTime": "更新时间"
+    }
+  },
+  "EmployeeInformation": {
+    "name": "雇员信息",
+    "version": "0.1",
+    "note": "包括求职、在职、离职的各种雇员信息",
+    "contributor": "yumen2278",
+    "data": {
+      "createTime": "创建时间",
+      "updateTime": "更新时间"
+    }
   }
 }
