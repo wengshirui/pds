@@ -235,7 +235,8 @@
         "companyManagerList": [
           {
             "name": "姓名",
-            "position": "职务"
+            "position": "职务",
+            "phone": "联系电话"
           },
           {
             "name": "黎亚稳",
@@ -369,6 +370,31 @@
     "note": "公司或者人事公司管理要招人的岗位信息",
     "contributor": "yumen2278",
     "data": {
+      "jobList": [
+        {
+          "job": "岗位",
+          "company": "公司",
+          "title": "招聘标题",
+          "requireStyle": "招聘方式,直招、非直招",
+          "trade": "行业",
+          "skillRequirement": "技术要求",
+          "simpleDesc": "招聘简章",
+          "describe": "招聘详情",
+          "requireNumber": "招聘人数",
+          "standNumber": "在岗人数",
+          "salary": "薪酬待遇",
+          "salaryType": "发放方式",
+          "accommodation": "食宿",
+          "insurance": "五险一金",
+          "otherWelfare": "其他福利",
+          "contact": "联系人",
+          "contactPhone": "联系电话",
+          "city": "所在城市",
+          "detailedAddress": "详细地址",
+          "wxId": "微信号",
+          "email": "邮箱"
+        }
+      ],
       "createTime": "创建时间",
       "updateTime": "更新时间"
     }
@@ -379,6 +405,26 @@
     "note": "包括求职、在职、离职的各种雇员信息",
     "contributor": "yumen2278",
     "data": {
+      "employeeList": [
+        {
+          "name": "姓名",
+          "phone": "手机号",
+          "wxId": "微信号",
+          "email": "邮箱",
+          "gender": "性别",
+          "idCard": "身份证号",
+          "bornDate": "出生日期",
+          "job": "岗位",
+          "education": "学历",
+          "lastCompany": "上家公司",
+          "skillLevel": "技能水平",
+          "description": "个人描述",
+          "wantedState": "求职状态，简历已投递，简历不合适，简历合适待面试，面试中，面试不通过，已入职等",
+          "state": "待入账、入职、离职",
+          "createTime": "创建时间",
+          "updateTime": "更新时间"
+        }
+      ],
       "createTime": "创建时间",
       "updateTime": "更新时间"
     }
