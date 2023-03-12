@@ -1,0 +1,15 @@
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+charset-normalizer==3.0.1
+click==7.1.2
+dnspython==2.3.0
+idna==3.4
+pymongo==4.3.3
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.1
+qt5-applications==5.15.2.2.2
+qt5-tools==5.15.2.1.2
+requests==2.28.2
+urllib3==1.26.14
+websockets==10.4
+wincertstore==0.2

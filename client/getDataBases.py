@@ -25,10 +25,11 @@ class Stats:
         r_list = getDataList()
         for i in r_list:
             print(i)
-            self.ui.databases.insertRow(0)
-            item = QTableWidgetItem()
-            item.setText(i)
-            self.ui.databases.setItem(0, 0, item)
+            if i != 'admin':
+                self.ui.databases.insertRow(0)
+                item = QTableWidgetItem()
+                item.setText(i)
+                self.ui.databases.setItem(0, 1, item)
 
 
 app = QApplication([])
