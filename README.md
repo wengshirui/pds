@@ -19,7 +19,8 @@ Personal data storage
 
 # 相关文件
  标准json文件见standard.json;key为字段名称，value为字段意义；
- 安装包见requirements.txt； 
+ 安装包见requirements.txt；
+ 导出安装包 pip freeze > requirements.txt
  安装包命令为 pip install -r requirements.txt
  
 # 可能的应用方向

@@ -3,7 +3,9 @@ charset-normalizer==3.0.1
 click==7.1.2
 dnspython==2.3.0
 idna==3.4
+peewee==3.16.0
 pymongo==4.3.3
+PyMySQL==1.0.2
 PyQt5==5.15.9
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.11.1
