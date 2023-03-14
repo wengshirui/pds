@@ -34,8 +34,7 @@ async def clientSend(websocket, database, collection):
     mycol = mydb[collection]
     doc_list = mycol.find()
     for i in doc_list:
-        print(i)
-
+        # print(i)
         await websocket.send(str(i))
 
 
