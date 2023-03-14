@@ -392,7 +392,9 @@
           "city": "所在城市",
           "detailedAddress": "详细地址",
           "wxId": "微信号",
-          "email": "邮箱"
+          "email": "邮箱",
+          "createTime": "创建时间",
+          "updateTime": "更新时间"
         }
       ],
       "createTime": "创建时间",

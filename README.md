@@ -3,8 +3,8 @@ Personal data storage
 个人数据存储项目，数据保存在自己手里  
 
 # 快速开始
- 安装mongodb
- 执行exe文件
+ 安装mongodb  
+ 执行exe文件（还没做好）
 
 # 主要框架
  主体以mongodb存储数据，bson格式；  

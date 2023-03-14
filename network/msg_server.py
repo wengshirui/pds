@@ -4,6 +4,7 @@ import time
 import websockets
 
 # 用于构建websocket服务器，在本地8765端口启动
+# 这里模拟第三方应用
 IP_ADDR = "127.0.0.1"
 IP_PORT = '8888'
 

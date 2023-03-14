@@ -40,6 +40,8 @@ for i in job_list[10:]:
         "city": i.city,
         "detailedAddress": i.detailed_address,
         "wxId": "隐私不泄露",
-        "email": "隐私不泄露"
+        "email": "隐私不泄露",
+        "createTime": i.add_time,
+        "updateTime": i.upd_time
     }
     mycol.insert_one(mydict)
