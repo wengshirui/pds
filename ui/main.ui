@@ -29,23 +29,20 @@ color:blue;
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
       <string>首页</string>
      </attribute>
-     <widget class="QLabel" name="label">
+     <widget class="QTextBrowser" name="readme">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>120</y>
-        <width>351</width>
-        <height>91</height>
+        <x>0</x>
+        <y>30</y>
+        <width>971</width>
+        <height>541</height>
        </rect>
-      </property>
-      <property name="text">
-       <string>首页放点东西说明一下</string>
       </property>
      </widget>
     </widget>
@@ -56,9 +53,9 @@ color:blue;
      <widget class="QTableWidget" name="databases">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>0</x>
         <y>40</y>
-        <width>861</width>
+        <width>971</width>
         <height>411</height>
        </rect>
       </property>
@@ -89,46 +86,23 @@ color:blue;
        <string>查询</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
-      <property name="geometry">
-       <rect>
-        <x>180</x>
-        <y>530</y>
-        <width>112</width>
-        <height>34</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{
-color:blue;
-}</string>
-      </property>
-      <property name="text">
-       <string>下一页</string>
-      </property>
-     </widget>
     </widget>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
-      <string>应用列表</string>
+      <string>应用</string>
      </attribute>
-     <widget class="QTableWidget" name="databases_2">
+     <widget class="QTableWidget" name="applications">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>0</x>
         <y>50</y>
-        <width>931</width>
+        <width>991</width>
         <height>471</height>
        </rect>
       </property>
       <column>
        <property name="text">
         <string>应用名称</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>英文名称</string>
        </property>
       </column>
       <column>
@@ -151,8 +125,13 @@ color:blue;
         <string>更新时间</string>
        </property>
       </column>
+      <column>
+       <property name="text">
+        <string>操作</string>
+       </property>
+      </column>
      </widget>
-     <widget class="QPushButton" name="getList_2">
+     <widget class="QPushButton" name="add">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -165,25 +144,7 @@ color:blue;
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>查询</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>190</x>
-        <y>550</y>
-        <width>112</width>
-        <height>34</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{
-color:blue;
-}</string>
-      </property>
-      <property name="text">
-       <string>下一页</string>
+       <string>添加</string>
       </property>
      </widget>
     </widget>
