@@ -48,15 +48,15 @@ def get_readme():
 </article>
             '''
     try:
-        response = requests.get(url, timeout=3)
-        print(response.status_code)
-        if response.status_code == 200:
-
-            soup = BeautifulSoup(response.text, 'lxml')
-            text = soup.article
-            return text
-        else:
-            return default_text
+        # response = requests.get(url, timeout=3)
+        # print(response.status_code)
+        # if response.status_code == 200:
+        #
+        #     soup = BeautifulSoup(response.text, 'lxml')
+        #     text = soup.article
+        #     return text
+        # else:
+        return default_text
     except Exception as e:
         print(e)
         return default_text

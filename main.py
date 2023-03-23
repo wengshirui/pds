@@ -5,6 +5,7 @@ from PyQt5 import uic
 from PyQt5.QtWidgets import QTableWidgetItem, QApplication
 from storage.databases import getDataList
 from client.index import get_readme
+from client.applications import get_application_list
 
 fpath = os.path.dirname(__file__)
 print(fpath)
@@ -26,6 +27,9 @@ class Stats:
         self.ui = uic.loadUi(ui)
         self.ui.getList.clicked.connect(self.showDataTable)
         self.ui.readme.setHtml(get_readme())
+        item1 = QTableWidgetItem()
+        item1.setText('test')
+        get_application_list(self.ui)
 
     def showDataTable(self):
         r_list = getDataList()
@@ -36,6 +40,15 @@ class Stats:
                 item = QTableWidgetItem()
                 item.setText(i)
                 self.ui.databases.setItem(0, 1, item)
+
+
+
+        # 163邮箱
+
+
+    def set_item(self, param):
+        for k, v in param:
+            print(k, v)
 
 
 app = QApplication([])
