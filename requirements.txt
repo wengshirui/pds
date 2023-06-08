@@ -1,7 +1,6 @@
-peewee==3.16.0
-pymongo==4.3.3
-PyQt5==5.15.9
-requests==2.28.2
-websockets==10.4
-lxml~=4.9.2
-beautifulsoup4~=4.11.2
+peewee
+pymongo
+PyQt5
+requests
+lxml
+beautifulsoup4
